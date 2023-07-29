@@ -9,9 +9,10 @@ iconLink.addEventListener("click", function (event) {
     if (!isSoundEnabled) {
         backgroundVideo.muted = false;
         backgroundVideo.play();
+        backgroundVideo.volume = 0.5; // Defina o volume desejado entre 0.0 e 1.0
         isSoundEnabled = true;
     } else {
-        backgroundVideo.pause();
+        backgroundVideo.muted = true; // Pausar o áudio, mantendo o vídeo em reprodução
         isSoundEnabled = false;
     }
 });
