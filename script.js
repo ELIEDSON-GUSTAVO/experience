@@ -38,7 +38,7 @@ iconLink.addEventListener("click", function (event) {
                                                                                                             currentLength++;
 
                                                                                                                     if (currentLength <= fullTitle.length) {
-                                                                                                                                setTimeout(type, 100); // Ajuste a velocidade da digitação alterando o valor (em milissegundos)
+                                                                                                                                setTimeout(type, 50); // Ajuste a velocidade da digitação alterando o valor (em milissegundos)
                                                                                                                                         } else {
                                                                                                                                                     typingTitle = false;
                                                                                                                                                                 titleElement.classList.remove("cursor-animation");

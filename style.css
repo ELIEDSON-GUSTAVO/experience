@@ -44,11 +44,11 @@ body {
                                                                                                                     background: linear-gradient(to right, #ff00cc, #3333ff);
                                                                                                                         background-clip: text;
                                                                                                                             -webkit-background-clip: text;
-                                                                                                                                animation: typing-animation 4s steps(40, end), neon-glow 1s ease-in-out infinite alternate;
+                                                                                                                                animation: typing-animation 2s steps(40, end), cursor-blink 0.7s infinite; /* Reduzir o tempo da animação de escrita */
                                                                                                                                     overflow: hidden;
                                                                                                                                         white-space: nowrap;
-                                                                                                                                            border-right: 0.15em solid #fff; /* Adiciona a barra que simula a digitação */
-                                                                                                                                                width: fit-content; /* Ajusta a largura do título conforme o conteúdo */
+                                                                                                                                            border-right: 0.08em solid #fff; /* Tornar a barra mais fina */
+                                                                                                                                                width: fit-content; /* Ajustar a largura do título conforme o conteúdo */
                                                                                                                                                 }
 
                                                                                                                                                 .banner .content .cursor-animation {
@@ -88,10 +88,10 @@ body {
 
                                                                                                                                                                                                                                         @keyframes cursor-blink {
                                                                                                                                                                                                                                             from, to {
-                                                                                                                                                                                                                                                    border-color: transparent; /* Torna a barra invisível */
+                                                                                                                                                                                                                                                    border-color: transparent; /* Tornar a barra invisível */
                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                             50% {
-                                                                                                                                                                                                                                                                    border-color: #fff; /* Torna a barra visível */
+                                                                                                                                                                                                                                                                    border-color: #fff; /* Tornar a barra visível */
                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                         }
 
