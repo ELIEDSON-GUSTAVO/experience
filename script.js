@@ -8,11 +8,11 @@ iconLink.addEventListener("click", function (event) {
   event.preventDefault(); // Impede o comportamento padrão do link
     if (!isSoundEnabled) {
         backgroundVideo.muted = false;
-        backgroundVideo.play();
         backgroundVideo.volume = 0.5; // Defina o volume desejado entre 0.0 e 1.0
+        backgroundVideo.play();
         isSoundEnabled = true;
     } else {
-        backgroundVideo.muted = true; // Pausar o áudio, mantendo o vídeo em reprodução
+        backgroundVideo.volume = 0; // Define o volume do áudio como 0 (mudo)
         isSoundEnabled = false;
     }
 });
