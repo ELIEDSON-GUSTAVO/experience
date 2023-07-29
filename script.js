@@ -5,8 +5,8 @@ let isSoundEnabled = false;
 
 playIcon.addEventListener("click", function () {
   if (!isSoundEnabled) {
-      backgroundVideo.muted = false;
-          isSoundEnabled = true;
-            }
-            });
+  backgroundVideo.muted = false;
+  isSoundEnabled = true;
+}
+});
             
