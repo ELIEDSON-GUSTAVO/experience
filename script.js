@@ -1,4 +1,4 @@
-const backgroundVideo = document.getElementById("video");
+const video = document.getElementById("video");
 const playIcon = document.getElementById("playIcon");
 
 let isSoundEnabled = false;
