@@ -8,6 +8,10 @@ iconLink.addEventListener("click", function (event) {
   event.preventDefault(); // Impede o comportamento padrão do link
     if (!isSoundEnabled) {
         backgroundVideo.muted = false;
+        backgroundVideo.play();
         isSoundEnabled = true;
-}
+    } else {
+        backgroundVideo.pause();
+        isSoundEnabled = false;
+    }
 });
