@@ -1,6 +1,7 @@
 const backgroundVideo = document.getElementById("backgroundVideo");
 const playIcon = document.getElementById("playIcon");
 const iconLink = document.getElementById("iconLink");
+const whatsappLink = document.getElementById("whatsappLink");
 const titles = document.querySelectorAll(".title");
 let currentTitleIndex = 0;
 let isSoundEnabled = false;
@@ -21,7 +22,7 @@ iconLink.addEventListener("click", function (event) {
 
                                                                 whatsappLink.addEventListener("click", function (event) {
                                                                     event.preventDefault(); // Impede o comportamento padrão do link
-                                                                        checkUserInput();
+                                                                        window.location.href = "https://wa.me/message/CQMJ7TPPC6XAL1";
                                                                         });
 
                                                                         titles[0].addEventListener("input", function () {
@@ -62,4 +63,6 @@ iconLink.addEventListener("click", function (event) {
                                                                                                                                                                                                                                                                                         window.location.href = "https://wa.me/message/CQMJ7TPPC6XAL1";
                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                             }
+
+                                                                                                                                                                                                                                                                                            typeTitle(); // Iniciar a animação de escrita do primeiro título
                                                                                                                                                                                                                                                                                             
