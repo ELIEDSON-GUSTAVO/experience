@@ -87,5 +87,9 @@ body {
                                                                                                                 .banner .content .subtitle {
                                                                                                                     font-size: 1em; /* Reduzir o tamanho da fonte para dispositivos móveis */
                                                                                                                       }
-                                                                                                                      }
-                                                                                                                      
+
+                                                                                                                        .banner .content .buttons {
+                                                                                                                            flex-direction: column; /* Ajustar a direção dos botões para ficarem um abaixo do outro */
+                                                                                                                              }
+                                                                                                                              }
+                                                                                                                              
