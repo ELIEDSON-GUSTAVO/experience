@@ -82,40 +82,51 @@ body {
                                                                                                       @media only screen and (max-width: 600px) {
                                                                                                         .banner .content .title {
                                                                                                             font-size: 3.5em;
-                                                                                                              }
+                                                                                                                animation-duration: 1.5s; /* Ajustar o tempo da animação de escrita */
+                                                                                                                  }
 
-                                                                                                                .banner .content .subtitle {
-                                                                                                                    font-size: 1em;
-                                                                                                                      }
+                                                                                                                    .banner .content .subtitle {
+                                                                                                                        font-size: 1em;
+                                                                                                                          }
 
-                                                                                                                        .banner .content .buttons {
-                                                                                                                            flex-direction: row;
-                                                                                                                                gap: 10px;
-                                                                                                                                  }
+                                                                                                                            .banner .content .buttons {
+                                                                                                                                flex-direction: row;
+                                                                                                                                    gap: 10px;
+                                                                                                                                      }
 
-                                                                                                                                    .banner .content .buttons img {
-                                                                                                                                        width: 30px;
-                                                                                                                                            height: 30px;
-                                                                                                                                              }
+                                                                                                                                        .banner .content .buttons img {
+                                                                                                                                            width: 30px;
+                                                                                                                                                height: 30px;
+                                                                                                                                                  }
 
-                                                                                                                                                /* Adicionar as animações de escrita e barra piscando no final para dispositivos móveis */
-                                                                                                                                                  @keyframes typing-animation {
-                                                                                                                                                      from {
-                                                                                                                                                            width: 0;
-                                                                                                                                                                }
-                                                                                                                                                                    to {
-                                                                                                                                                                          width: 100%;
-                                                                                                                                                                              }
-                                                                                                                                                                                }
+                                                                                                                                                    /* Adicionar as animações de escrita e barra piscando no final para dispositivos móveis */
+                                                                                                                                                      @keyframes typing-animation {
+                                                                                                                                                          from {
+                                                                                                                                                                width: 0;
+                                                                                                                                                                    }
+                                                                                                                                                                        to {
+                                                                                                                                                                              width: 100%;
+                                                                                                                                                                                  }
+                                                                                                                                                                                    }
 
-                                                                                                                                                                                  @keyframes cursor-blink {
-                                                                                                                                                                                      from,
-                                                                                                                                                                                          to {
-                                                                                                                                                                                                border-color: transparent;
-                                                                                                                                                                                                    }
-                                                                                                                                                                                                        50% {
-                                                                                                                                                                                                              border-color: #fff;
-                                                                                                                                                                                                                  }
-                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                    
+                                                                                                                                                                                      @keyframes cursor-blink {
+                                                                                                                                                                                          from,
+                                                                                                                                                                                              to {
+                                                                                                                                                                                                    border-color: transparent;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                            50% {
+                                                                                                                                                                                                                  border-color: #fff;
+                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                          /* Adicionar a animação de neon glow no texto para dispositivos móveis */
+                                                                                                                                                                                                                            @keyframes neon-glow {
+                                                                                                                                                                                                                                from {
+                                                                                                                                                                                                                                      filter: brightness(100%);
+                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                              to {
+                                                                                                                                                                                                                                                    filter: brightness(150%);
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                          
