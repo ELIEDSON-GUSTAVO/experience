@@ -89,27 +89,33 @@ body {
                                                                                                                       }
 
                                                                                                                         .banner .content .buttons {
-                                                                                                                            flex-direction: column;
-                                                                                                                              }
+                                                                                                                            flex-direction: row;
+                                                                                                                                gap: 10px;
+                                                                                                                                  }
 
-                                                                                                                                /* Adicionar as animações de escrita e barra piscando no final para dispositivos móveis */
-                                                                                                                                  @keyframes typing-animation {
-                                                                                                                                      from {
-                                                                                                                                            width: 0;
-                                                                                                                                                }
-                                                                                                                                                    to {
-                                                                                                                                                          width: 100%;
-                                                                                                                                                              }
+                                                                                                                                    .banner .content .buttons img {
+                                                                                                                                        width: 30px;
+                                                                                                                                            height: 30px;
+                                                                                                                                              }
+
+                                                                                                                                                /* Adicionar as animações de escrita e barra piscando no final para dispositivos móveis */
+                                                                                                                                                  @keyframes typing-animation {
+                                                                                                                                                      from {
+                                                                                                                                                            width: 0;
                                                                                                                                                                 }
+                                                                                                                                                                    to {
+                                                                                                                                                                          width: 100%;
+                                                                                                                                                                              }
+                                                                                                                                                                                }
 
-                                                                                                                                                                  @keyframes cursor-blink {
-                                                                                                                                                                      from,
-                                                                                                                                                                          to {
-                                                                                                                                                                                border-color: transparent;
-                                                                                                                                                                                    }
-                                                                                                                                                                                        50% {
-                                                                                                                                                                                              border-color: #fff;
-                                                                                                                                                                                                  }
+                                                                                                                                                                                  @keyframes cursor-blink {
+                                                                                                                                                                                      from,
+                                                                                                                                                                                          to {
+                                                                                                                                                                                                border-color: transparent;
                                                                                                                                                                                                     }
-                                                                                                                                                                                                    }
-                                                                                                                                                                                                    
+                                                                                                                                                                                                        50% {
+                                                                                                                                                                                                              border-color: #fff;
+                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    
