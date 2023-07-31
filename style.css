@@ -81,15 +81,35 @@ body {
                                                                                                       /* Estilos para dispositivos móveis */
                                                                                                       @media only screen and (max-width: 600px) {
                                                                                                         .banner .content .title {
-                                                                                                            font-size: 3.5em; /* Reduzir o tamanho da fonte para dispositivos móveis */
+                                                                                                            font-size: 3.5em;
                                                                                                               }
 
                                                                                                                 .banner .content .subtitle {
-                                                                                                                    font-size: 1em; /* Reduzir o tamanho da fonte para dispositivos móveis */
+                                                                                                                    font-size: 1em;
                                                                                                                       }
 
                                                                                                                         .banner .content .buttons {
-                                                                                                                            flex-direction: column; /* Ajustar a direção dos botões para ficarem um abaixo do outro */
+                                                                                                                            flex-direction: column;
                                                                                                                               }
-                                                                                                                              }
-                                                                                                                              
+
+                                                                                                                                /* Adicionar as animações de escrita e barra piscando no final para dispositivos móveis */
+                                                                                                                                  @keyframes typing-animation {
+                                                                                                                                      from {
+                                                                                                                                            width: 0;
+                                                                                                                                                }
+                                                                                                                                                    to {
+                                                                                                                                                          width: 100%;
+                                                                                                                                                              }
+                                                                                                                                                                }
+
+                                                                                                                                                                  @keyframes cursor-blink {
+                                                                                                                                                                      from,
+                                                                                                                                                                          to {
+                                                                                                                                                                                border-color: transparent;
+                                                                                                                                                                                    }
+                                                                                                                                                                                        50% {
+                                                                                                                                                                                              border-color: #fff;
+                                                                                                                                                                                                  }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    
