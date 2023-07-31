@@ -1,3 +1,5 @@
+/* CSS base */
+
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
 
 body {
@@ -104,4 +106,12 @@ body {
                                                                                                                                                     filter: brightness(150%);
                                                                                                                                                       }
                                                                                                                                                       }
-                                                                                                                                                      
+
+                                                                                                                                                      /* Media Query para dispositivos móveis */
+
+                                                                                                                                                      @media screen and (max-width: 600px) {
+                                                                                                                                                        .banner .content .title {
+                                                                                                                                                            font-size: 3.5em; /* Reduz o tamanho da fonte para telas menores */
+                                                                                                                                                              }
+                                                                                                                                                              }
+                                                                                                                                                              
