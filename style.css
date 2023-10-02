@@ -114,4 +114,12 @@ body {
                                                                                                                                                             font-size: 3.5em; /* Reduz o tamanho da fonte para telas menores */
                                                                                                                                                               }
                                                                                                                                                               }
+                                                                                                                                                              .redme.md div{
+                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                                                          align-items: center;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                          gap: 20px;
+
+                                                                                                                                                              }
+
                                                                                                                                                               
