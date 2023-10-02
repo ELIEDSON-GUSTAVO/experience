@@ -8,10 +8,11 @@ Página que se pode usar na biografia de redes sociais, para redirecionar ela pa
 
 <img src="movie/Screenshot_20231001-204757.jpg">
 
-<div class="buttons">                                                                                     <a href="https://instagram.com/eliedson_gustavo?igshid=MzNlNGNkZWQ4Mg=="><img src="./img/R (1).png" alt="Instagram"></a>
+<div class="buttons">                         
                                                                                                     <a href="https://wa.me/message/CQMJ7TPPC6XAL1" id="whatsappLink"><img src="./img/R.png" alt="WhatsApp"></a>
                                                                                                                                           
 </div>
 
+Caso necessite de um personalizado, click no ícone do WhatsApp acima, e me envie as informações da personalização, valores serão informados! 
 
                                         
