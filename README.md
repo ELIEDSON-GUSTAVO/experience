@@ -14,3 +14,14 @@ Página que se pode usar na biografia de redes sociais, para redirecionar ela pa
                                                                                                                                                                                                                                                                                                                                                                                                         <a href="https://uniteshop.lojavirtualnuvem.com.br/?ref=admin_header"><img src="./img/1690683682677.png" alt="loja UNITÉ"></a>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <a id="iconLink" href="#"><img src="img/1690664265130.png" alt="icone-fone-de-ouvido" id="playIcon"></a>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
+                                                
+<a href {
+                                                                                                  width:40px;                                                                                         height: 40px;
+                                                 cursor: pointer;
+                                                  gap: 20px;
+                                                  aliign-items: center;
+                                                  justify-center:center;
+                                                  display: flex;
+
+                                                                                                      }
+                                                 
