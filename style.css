@@ -3,117 +3,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
 
 body {
-  margin: 0;
+    margin: 0;
     padding: 0;
-      font-family: "Big Shoulders Display", cursive;
-        height: 100px;
-        }
+    font-family: "Big Shoulders Display", cursive;
+    height: 100px;
+}
 
-        .banner {
-          width: 100%;
-            height: 100vh;
-              z-index: 20;
-                overflow: hidden;
-                  display: flex;
-                    justify-content: center;
-                      align-items: center;
-                      }
+.banner {
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-                      .banner video {
-                        position: fixed;
-                          top: 0px;
-                            left: 0px;
-                              z-index: 20;
-                                object-fit: cover;
-                                  height: 100%;
-                                    width: 100%;
-                                    }
+.banner video {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 
-                                    .banner .content {
-                                      position: relative;
-                                        z-index: 20;
-                                          max-width: 1000px;
-                                            margin: 0 auto;
-                                              text-align: center;
-                                              }
+.banner .content {
+    position: relative;
+    z-index: 20;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-                                              .banner .content .title {
-                                                margin: 0;
-                                                  padding: 0;
-                                                    font-size: 5.5em;
-                                                      text-transform: uppercase;
-                                                        color: #fff;
-                                                          background: linear-gradient(to right, #ff00cc, #3333ff);
-                                                            background-clip: text;
-                                                              -webkit-background-clip: text;
-                                                                animation: typing-animation 2s steps(40, end), cursor-blink 0.7s infinite;
-                                                                  overflow: hidden;
-                                                                    white-space: nowrap;
-                                                                      border-right: 0.08em solid #fff;
-                                                                        width: fit-content;
-                                                                        }
+.banner .content .title {
+    margin: 0;
+    padding: 0;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: typing-animation 2s steps(40, end), cursor-blink 0.7s infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.08em solid #fff;
+    width: fit-content;
+}
 
-                                                                        .banner .content .cursor-animation {
-                                                                          color: #fff;
-                                                                            animation: cursor-blink 0.7s infinite;
-                                                                            }
+.banner .content .cursor-animation {
+    color: #fff;
+    animation: cursor-blink 0.7s infinite;
+}
 
-                                                                            .banner .content .subtitle {
-                                                                              font-size: 1.5em;
-                                                                                color: #fff;
-                                                                                  background: linear-gradient(to right, #ff00cc, #3333ff);
-                                                                                    background-clip: text;
-                                                                                      -webkit-background-clip: text;
-                                                                                        animation: neon-glow 1s ease-in-out infinite alternate-reverse;
-                                                                                        }
+.banner .content .subtitle {
+    font-size: 1.5em;
+    color: #fff;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: neon-glow 1s ease-in-out infinite alternate-reverse;
+}
 
-                                                                                        .banner .content .buttons {
-                                                                                          display: flex;
-                                                                                            justify-content: center;
-                                                                                              align-items: center;
-                                                                                                gap: 20px;
-                                                                                                }
+.banner .content .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-                                                                                                .banner .content .buttons img {
-                                                                                                  width: 40px;
-                                                                                                    height: 40px;
-                                                                                                      cursor: pointer;
-                                                                                                      }
+.banner .content .buttons img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
 
-                                                                                                      @keyframes typing-animation {
-                                                                                                        from {
-                                                                                                            width: 0;
-                                                                                                              }
-                                                                                                                to {
-                                                                                                                    width: 100%;
-                                                                                                                      }
-                                                                                                                      }
+@keyframes typing-animation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
 
-                                                                                                                      @keyframes cursor-blink {
-                                                                                                                        from, to {
-                                                                                                                            border-color: transparent;
-                                                                                                                              }
-                                                                                                                                50% {
-                                                                                                                                    border-color: #fff;
-                                                                                                                                      }
-                                                                                                                                      }
+@keyframes cursor-blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #fff;
+    }
+}
 
-                                                                                                                                      @keyframes neon-glow {
-                                                                                                                                        from {
-                                                                                                                                            filter: brightness(100%);
-                                                                                                                                              }
-                                                                                                                                                to {
-                                                                                                                                                    filter: brightness(150%);
-                                                                                                                                                      }
-                                                                                                                                                      }
+@keyframes neon-glow {
+    from {
+        filter: brightness(100%);
+    }
+    to {
+        filter: brightness(150%);
+    }
+}
 
-                                                                                                                                                      /* Media Query para dispositivos móveis */
+/* Media Query para dispositivos móveis */
 
-                                                                                                                                                      @media screen and (max-width: 600px) {
-                                                                                                                                                        .banner .content .title {
-                                                                                                                                                            font-size: 3.5em; /* Reduz o tamanho da fonte para telas menores */
-                                                                                                                                                              }
-                                                                                                                                                              }
-                                                                                      
-
-                                                                                                                                                              
+@media screen and (max-width: 600px) {
+    .banner .content .title {
+        font-size: 3.5em; /* Reduz o tamanho da fonte para telas menores */
+    }
+}
