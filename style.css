@@ -114,3 +114,44 @@ body {
         font-size: 3.5em; /* Reduz o tamanho da fonte para telas menores */
     }
 }
+
+/* Estilos do Rodapé */
+footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.footer-text {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: 'Poppins', sans-serif; /* Usando a fonte já utilizada */
+}
+
+.light-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 70%);
+    animation: light-animation 2s infinite;
+    opacity: 0.5;
+}
+
+@keyframes light-animation {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
