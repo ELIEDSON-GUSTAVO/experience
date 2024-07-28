@@ -65,4 +65,3 @@ function checkUserInput() {
 }
 
 typeTitle(); // Iniciar a animação de escrita do primeiro título
-
