@@ -66,28 +66,3 @@ function checkUserInput() {
 
 typeTitle(); // Iniciar a animação de escrita do primeiro título
 
-<script>
-    // Cores para a animação
-    const colors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#9400d3'];
-    
-    // Posição inicial
-    let colorIndex = 0;
-
-    // Função para atualizar o título
-    function animateTitle() {
-        const title = 'Eliedson';
-        const coloredTitle = title.split('').map((char, i) => {
-            const color = colors[(colorIndex + i) % colors.length];
-            return `<span style="color: ${color}">${char}</span>`;
-        }).join('');
-
-        // Atualizar o título da página
-        document.title = coloredTitle;
-
-        // Atualizar o índice de cores
-        colorIndex = (colorIndex + 1) % colors.length;
-    }
-
-    // Defina o intervalo para a animação (a cada 500ms)
-    setInterval(animateTitle, 500);
-</script>
